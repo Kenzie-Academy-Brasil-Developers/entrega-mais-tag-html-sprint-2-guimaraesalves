@@ -1,0 +1,109 @@
+body {
+    background: rgb(94, 131, 211);
+    font: normal 15pt Arial;
+}
+
+header {
+
+    color: rgb(231, 237, 248);
+    text-align: center;
+
+}
+.branding {
+    background: rgb(2, 82, 136);
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.342); 
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 120px;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+.box1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+}
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+   
+    
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0px; 
+}
+
+h1 {
+    font-size: 45px;
+    text-align: left;
+    text-shadow: 3px 3px 1px rgb(94, 131, 211);    
+}
+
+
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.342);
+    color: rgb(2, 82, 136) ;
+
+}
+
+.frase1 {
+    font-style: oblique;
+}
+
+
+.sobre {
+    background: rgb(94, 131, 211);;
+    border-radius: 8px;
+    padding: 10px;
+    width: 780px;
+    margin: 0px;
+    
+    color: white;
+}
+
+h3 {
+    background: rgb(94, 131, 211);
+    border-radius: 10px;
+    padding: 10px;
+    width: 780px;
+    margin: 0px;
+    color: white;
+}
+
+h4 {
+    color: rgb(2, 82, 136) ;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+p {
+    color: rgb(2, 82, 136);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
